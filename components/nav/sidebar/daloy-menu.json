@@ -1,0 +1,100 @@
+{
+    "categories": [
+        {
+            "id":"dashboard",
+            "label": "DASHBOARD",
+            "subcategory": [
+                {
+                    "id":"dashboard-main",
+                    "label": "Dashboard",
+                    "new": false,
+                    "path": "/daloy/dashboard",
+                    "count": 0,
+                    "icon": "bx bx-chart",
+                    "items": [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"reports",
+            "label": "REPORTING",
+            "subcategory": [
+                {
+                    "id":"reports-report",
+                    "label": "Reports",
+                    "new": false,
+                    "path": "/daloy/reports",
+                    "count": 0,
+                    "icon": "bx bx-file",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id":"maps",
+            "label": "MAPS",
+            "subcategory": [
+                {
+                    "id":"maps-gis",
+                    "label": "GIS",
+                    "new": false,
+                    "path": "/daloy/gis",
+                    "count": 0,
+                    "icon": "bx bx-map-alt",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id":"management",
+            "label": "MANAGEMENT",
+            "subcategory": [
+                {
+                    "id":"management-ticketing",
+                    "label": "Ticketing",
+                    "new": false,
+                    "path": "/daloy/tickets",
+                    "count": 0,
+                    "icon": "bx bx-task",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "id":"costing",
+            "label": "COST & ESTIMATE",
+            "subcategory": [
+                {
+                    "id":"costing-queue",
+                    "label": "Queue",
+                    "new": false,
+                    "path": "/daloy/queue",
+                    "count": 0,
+                    "icon": "bx bx-list-ol",
+                    "items": []
+                },
+                {
+                    "id":"costing-cost-materials",
+                    "label": "Costs and Materials",
+                    "new": false,
+                    "path": "/daloy/costs",
+                    "count": 0,
+                    "icon": "bx bx-money",
+                    "items": []
+                },
+                {
+                    "id":"costing-estimates",
+                    "label": "Estimates",
+                    "new": false,
+                    "path": "/daloy/estimates",
+                    "count": 0,
+                    "icon": "bx bx-spreadsheet",
+                    "items": []
+                }
+            ]
+        }
+            
+    ]
+}

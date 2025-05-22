@@ -1,0 +1,154 @@
+{
+    "categories": [
+            {
+                "id":"main",
+                "label": "DASHBOARDS",
+                "subcategory": [
+                    {
+                        "id":"main-dashboard",
+                        "label": "Dashboards",
+                        "new": false,
+                        "count": 12,
+                        "icon": "bx bx-chart",
+                        "items": [
+                            {
+                                "id": "main-dashboard-item-crm",
+                                "label": "CRM",
+                                "path": "/dashboards/crm",
+                                "new": false,
+                                "subitems": []
+                            },
+                            {
+                                "id": "main-dashboard-item-sales",
+                                "label": "Sales",
+                                "path": "/dashboards/sales",
+                                "new": false,
+                                "subitems": []
+                            },
+                            {
+                                "id": "main-dashboard-item-analytics",
+                                "label": "Analytics",
+                                "path": "/dashboards/analytics",
+                                "new": false,
+                                "subitems": []
+                            },
+                            {
+                                "id": "main-dashboard-item-projects",
+                                "label": "Projects",
+                                "path": "/dashboards/projects",
+                                "new": false,
+                                "subitems": []
+                            },
+                            {
+                                "id": "main-dashboard-item-hrm",
+                                "label": "HRM",
+                                "path": "/dashboards/hrm",
+                                "new": false,
+                                "subitems": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id":"reporting",
+                "label": "REPORTING",
+                "subcategory": [
+                    {
+                        "id":"reporting-reports",
+                        "label": "Reports",
+                        "new": false,
+                        "count": 0,
+                        "icon": "bx bx-spreadsheet",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id":"management",
+                "label": "MANAGEMENT",
+                "subcategory": [
+                    {
+                        "id":"management-ticketing",
+                        "label": "Ticketing",
+                        "new": false,
+                        "count": 0,
+                        "icon": "bx bx-task",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id":"management",
+                "label": "MANAGEMENT",
+                "subcategory": [
+                    {
+                        "id":"management-ticketing",
+                        "label": "Ticketing",
+                        "new": false,
+                        "count": 0,
+                        "icon": "bx bx-task",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id":"maps",
+                "label": "MAPS",
+                "subcategory": [
+                    {
+                        "id":"maps-gis",
+                        "label": "GIS",
+                        "new": false,
+                        "count": 0,
+                        "icon": "bx bx-spreadsheet",
+                        "items": [
+                            {
+                                "id": "maps-gis-about",
+                                "label": "About Us",
+                                "path": "/about-us",
+                                "new": false,
+                                "subitems": []
+                            },
+                            {
+                                "id": "maps-gis-blog",
+                                "label": "Blog",
+                                "path": "",
+                                "new": true,
+                                "subitems": [
+                                    {
+                                        "id": "maps-gis-blog-blog",
+                                        
+                                        "label": "Blog1",
+                                        "path": "/blog",
+                                        "new": false
+                                    },
+                                    {
+                                        "id": "maps-gis-blog-details",
+                                        "label": "Blog 2",
+                                        "path": "/blog-details",
+                                        "new": true
+                                    },
+                                    {
+                                        "id": "maps-gis-blog-create",
+                                        "label": "Create 3",
+                                        "path": "/blog-details",
+                                        "new": false
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "maps-gis-chat",
+                                "label": "Chat",
+                                "path": "/chat",
+                                "new": false,
+                                "subitems": []
+                            }
+                        ]
+                    }
+                ]
+            }
+            
+            
+        ]
+}

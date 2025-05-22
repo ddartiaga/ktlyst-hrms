@@ -1,0 +1,36 @@
+
+
+/* .landing-body .landing-banner::before {
+    background: linear-gradient(45deg, #ff6a00, #ee0979, #8e2de2);
+    background: linear-gradient(135deg, #267C9C, #3EB9E1); 
+}
+
+.landing-body .landing-main-image:before {
+    inset-inline-start: 3rem;
+}
+
+.landing-body .landing-main-image img {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+} */
+
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.maplibre-horizontal-controls {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+/* Add separator to every button *except* the first */
+.maplibre-horizontal-controls button + button {
+    border-left: 1px solid #ccc; /* gray line */
+}
+
+/* remove caret in dropdown item */
+.no-dd-arrow::before {
+    display: none !important;
+}

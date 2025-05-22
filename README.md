@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Katalyst - HRMS
+## Cloud-Native HRMS with Government Compliance Features
 
-## Getting Started
+### Project Overview
 
-First, run the development server:
+PH-HRMS is a comprehensive, cloud-native Human Resource Management System specifically designed for Philippine organizations. The system integrates essential HR functionalities with mandatory government compliance features, including SALN (Statement of Assets, Liabilities and Net Worth) and Personal Data Sheet (PDS) management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### System Architecture
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Technology Stack
+- **Frontend**: Next.js 15 (App Router) with TypeScript
+- **Styling**: Bootstrap CSS v5
+- **Backend**: Next.js API Routes with TypeScript
+- **Database**: PostgreSQL with Prisma ORM
+- **Authentication**: Auth.js (NextAuth.js)
+- **Infrastructure**: Terraform for AWS provisioning
+- **Deployment**: AWS EC2 or AWS App Runner (containerized)
+- **Observability**: OpenTelemetry, Prometheus, Grafana
+- **CI/CD**: GitHub Actions
+- **Logging**: File-based logging with audit trails
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Core System Components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Employee Management Module**
+   - Employee profiles and records
+   - Organizational hierarchy
+   - Role-based access control
 
-## Learn More
+2. **Government Compliance Module**
+   - SALN form generation and management
+   - PDS form handling and updates
+   - Compliance reporting and tracking
 
-To learn more about Next.js, take a look at the following resources:
+3. **Payroll Management**
+   - Salary computation with Philippine tax calculations
+   - Benefits administration
+   - Payslip generation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Leave Management**
+   - Leave application and approval workflow
+   - Leave balance tracking
+   - Holiday calendar management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Performance Management**
+   - Performance evaluations
+   - Goal setting and tracking
+   - 360-degree feedback
 
-## Deploy on Vercel
+6. **Recruitment Module**
+   - Job posting and application tracking
+   - Interview scheduling
+   - Candidate evaluation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+7. **Training & Development**
+   - Training program management
+   - Skill tracking
+   - Certification management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+8. **Reports & Analytics**
+   - HR metrics dashboard
+   - Compliance reports
+   - Custom report generation
+
+#### Security Features
+- Multi-factor authentication
+- Role-based access control (RBAC)
+- Data encryption at rest and in transit
+- Audit logging for all system activities
+- Regular security assessments
+
+#### Observability & Monitoring
+- Application performance monitoring
+- Real-time metrics and alerts
+- Distributed tracing
+- Log aggregation and analysis
+- Health checks and uptime monitoring

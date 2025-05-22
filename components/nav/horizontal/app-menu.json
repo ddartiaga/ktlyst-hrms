@@ -1,0 +1,95 @@
+{
+    "items": [
+        {
+            "id": "home",
+            "label": "Home",
+            "path": "#home",
+            "subitems": []
+        },
+        {
+            "id": "about",
+            "label": "About",
+            "path": "#about",
+            "subitems": []
+        },
+        {
+            "id": "more",
+            "label": "More",
+            "path": "",
+            "subitems": [
+                {
+                    "id": "more-statistics",
+                    "label": "Statistics",
+                    "path": "#statistics",
+                    "new": false,
+                    "children": []
+                },
+                {
+                    "id": "more-mission",
+                    "label": "Our Mission",
+                    "path": "#our-mission",
+                    "new": true,
+                    "children": []
+                },
+                {
+                    "id": "more-features",
+                    "label": "Features",
+                    "path": "#features",
+                    "new": false,
+                    "children": []
+                },
+                {
+                    "id": "more-testimonials",
+                    "label": "Testimonials",
+                    "path": "#testimonials",
+                    "new": false,
+                    "children": []
+                },
+                {
+                    "id": "more-level-2",
+                    "label": "Level-2",
+                    "path": "",
+                    "new": false,
+                    "children": [
+                        {
+                            "id": "more-level-2-1",
+                            "label": "Level-2-1",
+                            "path": "#level-2-1",
+                            "new": false
+                        },
+                        {
+                            "id": "more-level-2-2",
+                            "label": "Level-2-2",
+                            "path": "#level-2-2",
+                            "new": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "clients",
+            "label": "Clients",
+            "path": "#testimonials",
+            "subitems": []
+        },
+        {
+            "id": "team",
+            "label": "Team",
+            "path": "#team",
+            "subitems": []
+        },
+        {
+            "id": "faq",
+            "label": "FAQ",
+            "path": "#faq",
+            "subitems": []
+        },
+        {
+            "id": "contact",
+            "label": "Contact",
+            "path": "#contact",
+            "subitems": []
+        }
+    ]
+}
