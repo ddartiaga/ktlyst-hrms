@@ -9,17 +9,24 @@ import SearchModal from "@/components/modals/SearchModal";
 import OffCanvas from "@/components/Switcher";
 
 export const metadata: Metadata = {
-  title: "DALOY",
-  description: "Cloud Water District Operation System",
+  title: "Katalyst HRMS",
+  description: "Cloud-Native Human Resource Management System with Government Compliance Features",
   keywords: [
-    "DALOY",
-    "Cloud Water District Operation System",
-    "Water District Operation System",
+    "Katalyst HRMS",
+    "Cloud-Native Human Resource Management System",
+    "Government Compliance Features",
+    "Human Resource Management System",
+    "HRMS",
+    "HRMS System",
+    "HRMS Software",
+    "HRMS Software for Government",
+    "HRMS Software for Government",
+    "HRMS Software for Government",
   ],
   authors: [
     {
       name: "Katalyst I.T. Services",
-      url: "https://katalystph.com",
+      url: "https://katalysttechservices.com",
     },
   ],
 };
